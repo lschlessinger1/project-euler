@@ -13,6 +13,7 @@ public class Calculator {
 		Calculator calculator = new Calculator();
 		calculator.showAnswer(Problem1.getSolution());
 		calculator.showAnswer(Problem2.getSolution());
+		calculator.showAnswer(Problem2.getSolution());
 	}
 
 	private void showAnswer(int answer) {
