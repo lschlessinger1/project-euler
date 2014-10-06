@@ -18,7 +18,7 @@ public class Problem3 {
 		int n = 2;
 		for (int i = n; i < lpf; i++) {
 			if (lpf % n == 0) {
-				lpf = lpf / n;
+				lpf /= n;
 			} else {
 				n++;
 			}
